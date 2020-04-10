@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: new matrix
+# key: mat
+# binding: direct-keybinding
+# --
+$0 <- matrix($1 , nrow = $2, ncol = $3, byrow = ${4:FALSE})

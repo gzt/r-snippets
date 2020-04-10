@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: data to pipe
+# key: dp
+# binding: direct-keybinding
+# --
+${1:dataset} <- ${1:dataset} %>% ${0}
