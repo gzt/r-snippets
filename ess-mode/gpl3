@@ -1,11 +1,11 @@
 # -*- mode: snippet -*-
 # name : insert GPL-3 boilerplate
-# key: gpl3
+# key: gpl
 # contributor : geoffrey thompson <gzthompson@gmail.com>
 # --
-###   ${1:filename}
+###   ${1:`(file-name-nondirectory (buffer-file-name))`}
 ###   ${2:PROJECT} : ${3:TITLE}
-###   Copyright (C) 2020  GZ Thompson <gzthompson@gmail.com>
+###   Copyright (C) ${4:`(format-time-string "%Y")`}  GZ Thompson <gzthompson@gmail.com>
 ###
 ###   This program is free software; you can redistribute it and/or modify
 ###   it under the terms of the GNU General Public License as published by
