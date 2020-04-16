@@ -2,4 +2,4 @@
 # name: read.csv
 # key: rcsv
 # --
-$0 <- read.csv(filename = "$1", header = ${2:TRUE}, stringAsFactors = ${3:FALSE})
+$0 <- read.csv(file = "$1", header = ${2:TRUE}, stringsAsFactors = ${3:FALSE})
