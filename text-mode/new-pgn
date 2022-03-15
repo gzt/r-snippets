@@ -1,0 +1,14 @@
+# name: Insert PGN File
+# key: npgn
+# --
+
+
+[Event "${1:Repertoire}"]
+[Result "*"]
+[Date "`(format-time-string "%Y.%m.%d")`"]
+[Variant "Standard"]
+[Annotator "gzt"]
+
+`(current-kill 0)` *
+
+$0
