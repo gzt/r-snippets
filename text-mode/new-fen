@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name : Insert FEN file
+# key: nfen
+# contributor : geoffrey thompson <gzthompson@gmail.com>
+# --
+
+
+[Event "${1:Position}"]
+[Result "*"]
+[Date "`(format-time-string "%Y.%m.%d")`"]
+[Variant "Standard"]
+[Annotator "gzt"]
+[FEN "`(current-kill 0)`"]
+
+$0 *
